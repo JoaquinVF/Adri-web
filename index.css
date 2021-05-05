@@ -16,7 +16,7 @@ nav{
 .name{
     color: black;
     position: relative;
-    left: 20px;
+    left: 55px;
     font-weight: 400;
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.377);
@@ -37,7 +37,7 @@ nav{
 }
 @media screen and (min-width: 768px) {
     .name{
-        font-size: 22px;
+        font-size: 23px;
         text-decoration: none;
     }
     .name:hover{
@@ -49,6 +49,7 @@ nav{
         width: 100vw;
         height: 100vh;
         padding: 1rem;
+        padding-top: 0rem;
       
         display: grid;
         grid-template-columns: repeat(16, 1fr);
