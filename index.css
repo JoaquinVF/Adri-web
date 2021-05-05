@@ -10,6 +10,7 @@ html{
 }
 body{
     margin: 0;
+    background-color: white;
 }
 nav{
     width: 100%;
@@ -43,7 +44,7 @@ nav{
   grid-template-rows: repeat(20, 1fr);
 }
 .cell{
-  background: #fff;
+  background: #ffffff;
   padding: 0.2em;
   margin: 0 0 1.5em;
 }
